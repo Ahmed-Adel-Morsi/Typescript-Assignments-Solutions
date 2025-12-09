@@ -1,60 +1,237 @@
-**Typescript Assignments Solutions**
+# TypeScript Assignments Solutions
 
-**Description**: My assignment solutions for the Elzero Web School TypeScript course. The repository contains solutions organized by lesson ranges and assignment number.
+**Elzero Web School TypeScript Course**
 
-**Repository Structure**:
+This repository contains my solutions for the Elzero Web School TypeScript course assignments, organized by lesson ranges.
 
-- **`From 01 to 11 lessons Assignments/`**: Assignments for lessons 1–11 (each assignment in its own folder).
-- **`From 12 to 21 lessons Assignments/`**: Assignments for lessons 12–21.
-- **`From 22 to 31 lessons Assignments/`**: Assignments for lessons 22–31.
-- **`From 32 to 38 lessons Assignments/`**: Assignments for lessons 32–38.
+---
 
-Each assignment folder typically contains an `index.ts` (or `index.js`) file and sometimes a `tsconfig.json` specific to that assignment.
+## 📚 Table of Contents
 
-**How to run a single TypeScript assignment**:
+- [Lessons 01-11 Assignments](#lessons-01-11-assignments)
+- [Lessons 12-21 Assignments](#lessons-12-21-assignments)
+- [Lessons 22-31 Assignments](#lessons-22-31-assignments)
+- [Lessons 32-38 Assignments](#lessons-32-38-assignments)
+- [How to Run](#how-to-run)
+- [Project Structure](#project-structure)
 
-1. Open a terminal (this repository was developed on Windows with `bash.exe`, these commands are compatible with that shell).
-2. Change to the assignment folder you want to run. Example:
+---
+
+## 📁 Lessons 01-11 Assignments
+
+| Assignment                                                                 | Folder         | Files                                   |
+| -------------------------------------------------------------------------- | -------------- | --------------------------------------- |
+| [Assignment 1](./From%2001%20to%2011%20lessons%20Assignments/Assignment-1) | `Assignment-1` | `main.ts`, `tsconfig.json`              |
+| [Assignment 2](./From%2001%20to%2011%20lessons%20Assignments/Assignment-2) | `Assignment-2` | `index.ts`                              |
+| [Assignment 3](./From%2001%20to%2011%20lessons%20Assignments/Assignment-3) | `Assignment-3` | `index.ts`                              |
+| [Assignment 4](./From%2001%20to%2011%20lessons%20Assignments/Assignment-4) | `Assignment-4` | `index.ts`                              |
+| [Assignment 5](./From%2001%20to%2011%20lessons%20Assignments/Assignment-5) | `Assignment-5` | `index.ts`, `tsconfig.json`             |
+| [Assignment 6](./From%2001%20to%2011%20lessons%20Assignments/Assignment-6) | `Assignment-6` | `index.ts`, `index.js`, `tsconfig.json` |
+| [Assignment 7](./From%2001%20to%2011%20lessons%20Assignments/Assignment-7) | `Assignment-7` | `index.ts`                              |
+| [Assignment 8](./From%2001%20to%2011%20lessons%20Assignments/Assignment-8) | `Assignment-8` | `index.ts`, `index.js`                  |
+
+### Quick Links
+
+- [Assignment-1](./From%2001%20to%2011%20lessons%20Assignments/Assignment-1)
+- [Assignment-2](./From%2001%20to%2011%20lessons%20Assignments/Assignment-2)
+- [Assignment-3](./From%2001%20to%2011%20lessons%20Assignments/Assignment-3)
+- [Assignment-4](./From%2001%20to%2011%20lessons%20Assignments/Assignment-4)
+- [Assignment-5](./From%2001%20to%2011%20lessons%20Assignments/Assignment-5)
+- [Assignment-6](./From%2001%20to%2011%20lessons%20Assignments/Assignment-6)
+- [Assignment-7](./From%2001%20to%2011%20lessons%20Assignments/Assignment-7)
+- [Assignment-8](./From%2001%20to%2011%20lessons%20Assignments/Assignment-8)
+
+---
+
+## 📁 Lessons 12-21 Assignments
+
+| Assignment                                                                 | Folder         | Files      |
+| -------------------------------------------------------------------------- | -------------- | ---------- |
+| [Assignment 1](./From%2012%20to%2021%20lessons%20Assignments/Assignment-1) | `Assignment-1` | `index.ts` |
+| [Assignment 2](./From%2012%20to%2021%20lessons%20Assignments/Assignment-2) | `Assignment-2` | `index.ts` |
+| [Assignment 3](./From%2012%20to%2021%20lessons%20Assignments/Assignment-3) | `Assignment-3` | `index.ts` |
+| [Assignment 4](./From%2012%20to%2021%20lessons%20Assignments/Assignment-4) | `Assignment-4` | `index.ts` |
+| [Assignment 5](./From%2012%20to%2021%20lessons%20Assignments/Assignment-5) | `Assignment-5` | `index.ts` |
+| [Assignment 6](./From%2012%20to%2021%20lessons%20Assignments/Assignment-6) | `Assignment-6` | `index.ts` |
+| [Assignment 7](./From%2012%20to%2021%20lessons%20Assignments/Assignment-7) | `Assignment-7` | `index.ts` |
+| [Assignment 8](./From%2012%20to%2021%20lessons%20Assignments/Assignment-8) | `Assignment-8` | `index.ts` |
+
+### Quick Links
+
+- [Assignment-1](./From%2012%20to%2021%20lessons%20Assignments/Assignment-1)
+- [Assignment-2](./From%2012%20to%2021%20lessons%20Assignments/Assignment-2)
+- [Assignment-3](./From%2012%20to%2021%20lessons%20Assignments/Assignment-3)
+- [Assignment-4](./From%2012%20to%2021%20lessons%20Assignments/Assignment-4)
+- [Assignment-5](./From%2012%20to%2021%20lessons%20Assignments/Assignment-5)
+- [Assignment-6](./From%2012%20to%2021%20lessons%20Assignments/Assignment-6)
+- [Assignment-7](./From%2012%20to%2021%20lessons%20Assignments/Assignment-7)
+- [Assignment-8](./From%2012%20to%2021%20lessons%20Assignments/Assignment-8)
+
+---
+
+## 📁 Lessons 22-31 Assignments
+
+| Assignment                                                                 | Folder         | Files      |
+| -------------------------------------------------------------------------- | -------------- | ---------- |
+| [Assignment 1](./From%2022%20to%2031%20lessons%20Assignments/Assignment-1) | `Assignment-1` | `index.ts` |
+| [Assignment 2](./From%2022%20to%2031%20lessons%20Assignments/Assignment-2) | `Assignment-2` | `index.ts` |
+| [Assignment 3](./From%2022%20to%2031%20lessons%20Assignments/Assignment-3) | `Assignment-3` | `index.ts` |
+| [Assignment 4](./From%2022%20to%2031%20lessons%20Assignments/Assignment-4) | `Assignment-4` | `index.ts` |
+| [Assignment 5](./From%2022%20to%2031%20lessons%20Assignments/Assignment-5) | `Assignment-5` | `index.ts` |
+| [Assignment 6](./From%2022%20to%2031%20lessons%20Assignments/Assignment-6) | `Assignment-6` | `index.ts` |
+| [Assignment 7](./From%2022%20to%2031%20lessons%20Assignments/Assignment-7) | `Assignment-7` | `index.ts` |
+
+### Quick Links
+
+- [Assignment-1](./From%2022%20to%2031%20lessons%20Assignments/Assignment-1)
+- [Assignment-2](./From%2022%20to%2031%20lessons%20Assignments/Assignment-2)
+- [Assignment-3](./From%2022%20to%2031%20lessons%20Assignments/Assignment-3)
+- [Assignment-4](./From%2022%20to%2031%20lessons%20Assignments/Assignment-4)
+- [Assignment-5](./From%2022%20to%2031%20lessons%20Assignments/Assignment-5)
+- [Assignment-6](./From%2022%20to%2031%20lessons%20Assignments/Assignment-6)
+- [Assignment-7](./From%2022%20to%2031%20lessons%20Assignments/Assignment-7)
+
+---
+
+## 📁 Lessons 32-38 Assignments
+
+| Assignment                                                                 | Folder         | Files      |
+| -------------------------------------------------------------------------- | -------------- | ---------- |
+| [Assignment 1](./From%2032%20to%2038%20lessons%20Assignments/Assignment-1) | `Assignment-1` | `index.ts` |
+| [Assignment 2](./From%2032%20to%2038%20lessons%20Assignments/Assignment-2) | `Assignment-2` | `index.ts` |
+| [Assignment 3](./From%2032%20to%2038%20lessons%20Assignments/Assignment-3) | `Assignment-3` | `index.ts` |
+
+### Quick Links
+
+- [Assignment-1](./From%2032%20to%2038%20lessons%20Assignments/Assignment-1)
+- [Assignment-2](./From%2032%20to%2038%20lessons%20Assignments/Assignment-2)
+- [Assignment-3](./From%2032%20to%2038%20lessons%20Assignments/Assignment-3)
+
+---
+
+## 🚀 How to Run
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your system.
+
+### Installation (Optional)
+
+If you want to install TypeScript and ts-node globally or locally:
 
 ```bash
-cd "From 01 to 11 lessons Assignments/Assignment-2"
-```
+# Install globally
+npm install -g typescript ts-node
 
-3. Run the TypeScript file using `ts-node` (recommended for quick runs) or compile with `tsc` then run with `node`.
-
-- Using `npx ts-node` (no global install required):
-
-```bash
-npx ts-node index.ts
-```
-
-- Or compile then run:
-
-```bash
-npx tsc index.ts
-node index.js
-```
-
-Note: Some assignment folders include their own `tsconfig.json`. If you prefer compiling the whole project, run `npx tsc` from the folder with the `tsconfig.json`.
-
-**Install dev tools (optional)**:
-
-```bash
+# Or install locally in the project
 npm init -y
 npm install --save-dev typescript ts-node @types/node
-
-# Optionally add a local `tsconfig.json` if needed
-npx tsc --init
 ```
 
-**Notes & tips**:
+### Running an Assignment
 
-- Some assignments are already compiled to `.js` next to the `.ts` file — you can run the `.js` directly with `node`.
-- File paths in this repo contain spaces; wrap them in quotes when using `cd` in the terminal.
-- If you want a central `tsconfig.json` or an automated script to run assignments, I can add a small `package.json` with convenient npm scripts.
+1. **Navigate to the assignment folder:**
 
-**Contributing / Next steps**:
+   ```bash
+   cd "From 01 to 11 lessons Assignments/Assignment-2"
+   ```
 
-- If you'd like, I can add `package.json` scripts, a single workspace `tsconfig.json`, or a small runner script to choose and execute assignments by number.
+2. **Run using ts-node (Recommended):**
 
-**License**: This repo is the author's work (no license specified).
+   ```bash
+   npx ts-node index.ts
+   ```
+
+   Or if installed globally:
+
+   ```bash
+   ts-node index.ts
+   ```
+
+3. **Or compile and run:**
+
+   ```bash
+   # Compile TypeScript
+   npx tsc index.ts
+
+   # Run the compiled JavaScript
+   node index.js
+   ```
+
+### Special Cases
+
+- **Assignment-1 (Lessons 01-11):** The main file is located at:
+
+  ```
+  project/files/typescript/main.ts
+  ```
+
+- **Assignments with tsconfig.json:** Some assignments have their own `tsconfig.json`. You can compile using:
+
+  ```bash
+  npx tsc
+  ```
+
+- **Pre-compiled files:** Some assignments already have compiled `.js` files. You can run them directly:
+  ```bash
+  node index.js
+  ```
+
+---
+
+## 📂 Folder Structure
+
+```
+assignments/
+├── From 01 to 11 lessons Assignments/
+│   ├── Assignment-1/
+│   │   ├── project/files/typescript/main.ts
+│   │   └── dist/compiled/javascript/
+│   ├── Assignment-2/
+│   │   └── index.ts
+│   ├── Assignment-3/
+│   │   └── index.ts
+│   ├── Assignment-4/
+│   │   └── index.ts
+│   ├── Assignment-5/
+│   │   ├── index.ts
+│   │   └── tsconfig.json
+│   ├── Assignment-6/
+│   │   ├── index.ts
+│   │   ├── index.js
+│   │   └── tsconfig.json
+│   ├── Assignment-7/
+│   │   └── index.ts
+│   └── Assignment-8/
+│       ├── index.ts
+│       └── index.js
+├── From 12 to 21 lessons Assignments/
+│   ├── Assignment-1/ through Assignment-8/
+│   └── (each contains index.ts)
+├── From 22 to 31 lessons Assignments/
+│   ├── Assignment-1/ through Assignment-7/
+│   └── (each contains index.ts)
+├── From 32 to 38 lessons Assignments/
+│   ├── Assignment-1/ through Assignment-3/
+│   └── (each contains index.ts)
+└── README.md
+```
+
+---
+
+## 📝 Notes
+
+- File paths contain spaces, so always wrap them in quotes when using terminal commands.
+- Some assignments include compiled JavaScript files (`.js`) alongside TypeScript files (`.ts`).
+- Each assignment folder is self-contained and can be run independently.
+
+---
+
+## 🎓 Course Information
+
+**Course:** Elzero Web School TypeScript Course  
+**Total Assignments:** 26 assignments across 4 lesson ranges
+
+---
+
+**Happy Coding! 🚀**
